@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="https://img.freepik.com/premium-photo/modern-favicon-developer-portfolio-website-generative-ai_804788-172689.jpg" type="image/x-icon">
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="container">
+      <div class="logo">
+        <h1>Rohit.<span class="surname">Goutam</span></h1>
+      </div>
+
+      <!-- Navbar links and menu icon -->
+      <div class="navbar-links" id="navbarLinks">
+        <ul>
+          <li><a href="#home">About</a></li>
+          <li><a href="#about">Experience</a></li>
+          <li><a href="#projects">Project</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Menu icon (only visible on smaller screens) -->
+      <div class="menu-icon" onclick="toggleMenu()">☰</div>
+    </div>
+
+    <!-- Home section -->
+    <section id="home">
+      <div class="home_container">
+        <div class="home-bg">
+          <img src="RGpic.jpg" alt="Portfolio" />
+        </div>
+
+        <div class="home-content">
+          <p class="title-name">Hello,I am</p>
+          <h1 class="Owner_name">Rohit Goutam</h1>
+          <p class="info_line">
+            I'm a software engineer with a passion for technology and design.
+          </p>
+          <a href="Resume" target="_blank"
+            ><button type="button" class="btn btn-primary btn-lg rounded-pill">
+              See Resume
+            </button></a
+          >
+
+          <a href="Contact" target="_blank"
+            ><button
+              type="button"
+              class="btn btn-secondary btn-lg rounded-pill"
+            >
+              Contact Info
+            </button></a
+          >
+          <br />
+          <a
+            href="https://www.linkedin.com/in/rohit-goutam-a04788330/"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin-in icon"></i
+          ></a>
+          <a href="https://github.com/dashboard" target="_blank"
+            ><i class="fa-brands fa-github icon"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About section -->
+    <section id="box">
+      <div class="title_name">
+        <p class="next_title">Get To Know More</p>
+        <h1 class="about_title">About Me</h1>
+      </div>
+      <div class="section_part">
+        <!-- first_box -->
+        <div class="box_part1">
+          <img src="about1.jpg" alt="About Me" />
+          <h2>Education Experience</h2>
+          <p>
+            2+ years <br />
+            Frontend/Backend Development
+          </p>
+        </div>
+        <!-- second_box -->
+        <div class="box_part2">
+          <img src="about2.jpg" alt="About Me" />
+          <h2>Education</h2>
+          <p>Bachelor of Computer Application</p>
+        </div>
+      </div>
+
+      <div class="text-container">
+        <p>
+          <span class="highlight"></span> I'm
+          <span class="highlight">Software Developer</span> from India, I build
+          apps with a focus on
+          <span class="highlight">JavaScript React</span>
+          considering all the aspects of
+          <span class="highlight">UI/UX</span> . I enjoy turning complex
+          problems into simple, beautiful and intuitive designs. <br />
+          A <span class="highlight">Software Engineer</span> , who loves to
+          solve problems. I am having an experience of building high-performing,
+          responsive, beautiful web applications to deliver a unique, intuitive
+          user experience that works, also
+          <span class="highlight">
+            keen interest in Website and App Development</span
+          >
+          with some nice designing skills. <br />
+          I am a well-trained teammate who loves to share ideas and prioritizes
+          communication in order to achieve goals within the set deadlines. I
+          enjoy being challenged and working on projects that require me to step
+          outside of my comfort zone.
+        </p>
+      </div>
+    </section>
+    <!-- Projects section -->
+    <section id="projects">
+        <div class="title_view">
+          <p class="next_title">Explore my</p>
+          <h1 class="about_title">Experience</h1>
+        </div>
+
+      
+          <div class="mysection2">
+            <div class="frontend_skills">
+              <h2>Fronted Developer</h2>
+              <ul>
+                  <li>HTML <i class="fa-brands fa-html5"></i></li>
+                  <li>CSS <i class="fa-brands fa-css3-alt"></i></li>
+                <li>JavaScript <i class="fa-brands fa-js"></i></li>
+                <!-- <li>GitHub <i class="fa-brands fa-github"></i></li> -->
+                <li>React <i class="fa-brands fa-react"></i></li>
+                <li>Node.js <i class="fa-brands fa-node"></i></li>
+                <li>Bootstrap <i class="fa-brands fa-bootstrap"></i></li>
+                <li>Tailwind <i class="fa-brands fa-tailwind"></i></li>
+              </ul>
+            </div>
+            <div class="backend_skills">
+              <h2>Backend Developer</h2>
+              <ul>
+                <li>GitHub <i class="fa-brands fa-github"></i></li>
+                <li>Node.js <i class="fa-brands fa-node"></i></li>
+                <li>Express.js <i class="fa-brands fa-express"></i></li>
+                <li>MongoDB <i class="fa-solid fa-database"></i></li>
+                <li>Redis <i class="fa-brands fa-redis"></i></li>
+                <li>Git <i class="fa-brands fa-git"></i></li>
+                <li>Canvas <i class="fa-brands fa-canvas"></i></li>
+                <li>Next.js <i class="fa-brands fa-next"></i></li>
+                <li>VS Code <i class="fa-brands fa-vscode"></i></li>
+              </ul>
+            </div>
+          </div>
+        
+      </section>
+      <!-- Project section -->
+      <section id="project_section">
+        <div class="titel_view">
+        <p class="next_title">Browse My Recent</p>
+        <h1 class="about_title">Projects</h1>
+      </div>
+       <div class="whole_container">
+            <div class="project_container">
+                <img src="https://i.ytimg.com/vi/XIrte1MAyXA/maxresdefault.jpg"  height="200px" width="300px"  alt="">
+                <p class="proj_p">Project1</p>
+                
+An anime site featuring extensive anime information, reviews, character profiles, and latest updates,
+ designed for dedicated fans and newcomers alike.
+                <button type="button" class="btn btn-secondary btn-lg rounded-pill"><a href="https://github.com/CodingBitss/AnimeClone">GitHub</a></button>
+                <button type="button" class="btn btn-secondary btn-lg rounded-pill"><a href="https://codingbitss.github.io/AnimeClone/">Live Demo</a></button>
+            </div>
+
+
+
+            <div class="project_container">
+              <img src="https://www.sourcecodester.com/sites/default/files/images/rems/na.png" height="200px" width="300px" alt="">
+              <p class="proj_p">Project2</p>
+              A modern news site delivering up-to-date, accurate information on current events, technology, entertainment, and more, catering to diverse reader interests.
+              <button type="button" class="btn btn-secondary btn-lg rounded-pill"><a href="">GitHub</a></button>
+              <button type="button" class="btn btn-secondary btn-lg rounded-pill"><a href="http://127.0.0.1:5501/index.html">Live Demo</a></button>
+          </div>
+
+
+          <div class="project_container">
+            <img src="https://www.codewithrandom.com/wp-content/uploads/2022/11/codewithrandom76.png" height="200px" width="300px" alt="">
+            <p class="proj_p">Project3</p>
+            An engaging quiz game platform offering fun, challenging questions across various topics, perfect for testing knowledge, learning, and competing with friends.
+            <button type="button" class="btn btn-secondary btn-lg rounded-pill"><a href="https://github.com/CodingBitss/Quiz">GitHub</a></button>
+            <button type="button" class="btn btn-secondary btn-lg rounded-pill"><a href="https://codingbitss.github.io/Quiz/">Live Demo</a></button>
+        </div>
+       </div>
+        </div>
+      </section>
+  <!--Contact Section-->
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img
+          data-lazyloaded="1"
+          src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+          decoding="async"
+          data-src="./assets/email.png"
+          alt="Email icon"
+          class="icon contact-icon email-icon"
+        />
+        <p><a href="mailto:johndoe123@gmail.com">rohitgotam050@gmail.com</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img
+          data-lazyloaded="1"
+          src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+          decoding="async"
+          data-src="./assets/linkedin.png"
+          alt="LinkedIn icon"
+          class="icon contact-icon"
+        />
+        <p>
+          <a target="_blank" href="https://www.linkedin.com/in/rohit-goutam-a04788330/"
+          target="_blank" rel="noopener"
+            >LinkedIn</a
+          >
+        </p>
+      </div>
+    </div>
+  </section>
+  <!-- Footer section -->
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#blogs">Blogs</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p class="footer_text">Copyright &#169; 2024 @John Doe. All Rights Reserved.</p>
+  </footer>
+
+    <!-- JavaScript for toggling menu on small screens -->
+    <script src="script.js"></script>
+  </body>
+</html>
